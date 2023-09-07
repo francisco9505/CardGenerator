@@ -1,1 +1,35 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: #0f7e11;
+}
+
+.card {
+  display: inline-block;
+  display: flex;
+  margin: auto;
+  height: 300px;
+  width: 200px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+}
+
+.card .top {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 60px;
+}
+.card .bottom {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 60px;
+}
+
+.card .number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
